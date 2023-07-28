@@ -15,6 +15,7 @@ session_start();
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
+<<<<<<< HEAD
 <nav class='navbar p-3'>
         <h2>Recipe Website</h2>
         <ul class='links-container'>
@@ -22,6 +23,17 @@ session_start();
             <li class='link-item'><a href='editor.php' class='link'>editor</a></li>
             <li>
             <p class='btn-primary p-0 mx-4'><a onclick="window.location.href='logout.inc.php';">Logout</a> </p>
+=======
+<nav class='navbar border flex justify-content-between'>
+        <h3>M<span class='span'>M</span></h3>
+        <ul class='links-container'>
+            <li class='link-item'><a href='home.php' class='link'>home</a></li>
+            <li class='link-item'><a href='editor.php' class='link'>Authors</a></li>
+        </ul>
+        <ul class="links-container">
+        <li class="link-item">
+            <p class='btn mx-4'><a onclick="window.location.href='logout.inc.php';">Logout</a> </p>
+>>>>>>> af101460c3f3421cb47f21fcff5e2064f44e7cbc
             </li>
         </ul>
     

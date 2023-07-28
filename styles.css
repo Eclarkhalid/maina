@@ -58,5 +58,17 @@ p{
 }
 
 .signup{
+<<<<<<< HEAD
     background-color: aquamarine;
+=======
+    background-color: #ccc;
+}
+
+.login{
+    background-color: #ccc;
+}
+
+.span{
+    color: blue;
+>>>>>>> af101460c3f3421cb47f21fcff5e2064f44e7cbc
 }

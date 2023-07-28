@@ -13,7 +13,7 @@ include_once 'header.php'
         <h1 class="login fs-2 text-center mb-3">Login</h1>
 
             <div class="inputBox mb-2">
-                <label for="email">Enter Your Email/ Username</label> <br>
+                <label for="email">Enter Your Email</label> <br>
             <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Enter email address" required>
             </div>
 

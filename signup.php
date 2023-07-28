@@ -12,6 +12,8 @@ include_once 'header.php'
             <div class="card p-3">
             <h1 class="signup fs-2 text-center mb-3">Sign Up</h1>
                 <div class="inputBox1 mb-2">
+
+                <div class="inputBox1 mb-2">
                 <label>Enter First Name</label> <br>
                 <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Enter your name" required />
                 </div>
@@ -27,12 +29,12 @@ include_once 'header.php'
                 </div>
 
                 <div class="inputBox mb-2">
-                    <label>Enter Paswword</label>
+                    <label>Enter Password</label>
                 <input type="password" name="password" class="form-control" id="floatingInput" placeholder="Enter a password" required />
                 </div>
 
                 <div class="inputBox mb-2">
-                <label>Confirm Paswword</label>
+                <label>Confirm Password</label>
                 <input type="password" name="repeat" class="form-control" id="floatingInput" placeholder="Confirm Password" required />
                 </div>
 

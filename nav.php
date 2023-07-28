@@ -15,6 +15,18 @@ session_start();
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
+<nav class='navbar p-3'>
+        <h2>Recipe Website</h2>
+        <ul class='links-container'>
+            <li class='link-item'><a href='home.php' class='link'>home</a></li>
+            <li class='link-item'><a href='editor.php' class='link'>editor</a></li>
+            <li>
+            <p class='btn-primary p-0 mx-4'><a onclick="window.location.href='logout.inc.php';">Logout</a> </p>
+            </li>
+        </ul>
+    
+
+    </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     
     
